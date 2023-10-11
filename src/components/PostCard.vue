@@ -10,8 +10,14 @@
 	</div>
 </template>
 
-<script lang="ts" setup>
+<script lang="ts" >
 import CardButton from "./CardButton.vue";
+import { defineComponent, Ref, ref } from "vue";
+
+export default defineComponent({
+	name: 'PostCard',
+	props
+})
 </script>
 
 <style scoped>
