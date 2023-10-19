@@ -1,6 +1,6 @@
 interface Ipost {
 	id?: number;
 	title?: string;
-	content?: string;
+	body?: string;
 }
 export default Ipost;
